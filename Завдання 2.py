@@ -1,0 +1,5 @@
+n = input("Введіть ціле число: ")
+n_list = list(n)
+n_list.reverse()
+m = "".join(n_list)
+print('Зворотне йому число:', m)
